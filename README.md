@@ -1,5 +1,5 @@
 # AL-GradNorm
-Pytorch implementation of our paper: Boosting Active Learning via Improving Test Performance, AAAI 2022. 
+Pytorch implementation of our paper: *Boosting Active Learning via Improving Test Performance*, AAAI 2022. 
 
 ## Introduction
 * With the aid of the influence function, we derive that unlabeled data of higher gradient norm should be selected
