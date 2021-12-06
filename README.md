@@ -1,6 +1,7 @@
 # AL-GradNorm
 Pytorch implementation of our paper: *Boosting Active Learning via Improving Test Performance*, AAAI 2022. 
 
+
 ## Introduction
 * With the aid of the influence function, we derive that unlabeled data of higher gradient norm should be selected
 for annotation in active learning.
@@ -22,7 +23,7 @@ Specify the path of your folder in line 43-45 of the `main.py` file.
 ## Run the Code 
 `python main.py`
 
-## Remarks
+## Notes
 The config.py file includes all the hyper-parameters. Set SCHEME=0 for the expected-gradnorm scheme and SCHEME=1 for the entropy-gradnorm scheme. Set NUM_CLASS accordingly, for example, 10 for Cifar10.
 
 Currently, the TRIALS is set to 3 in config.py because the reported results are averaged over 3 runs. One can change it to 1 if using 3 GPUs to run the program concurrently.
