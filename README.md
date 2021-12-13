@@ -29,12 +29,14 @@ The config.py file includes all the hyper-parameters. Set SCHEME=0 for the expec
 Currently, the TRIALS is set to 3 in config.py because the reported results are averaged over 3 runs. One can change it to 1 if using 3 GPUs to run the program concurrently.
 
 ## Citation 
-`@inproceedings{wang2022boosting,
+```
+@inproceedings{wang2022boosting,
   title={Boosting Active Learning via Improving Test Performance}, 
   author={Wang, Tianyang and Li, Xingjian and Yang, Pengkun and Hu, Guosheng and Zeng, Xiangrui and Huang, Siyu and Xu, Cheng-Zhong and Xu, Min},  
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},  
   year={2022}
- }`
+ }
+```
  
 ## Contact
 [Tianyang Wang](https://tianyangwang.org/)
