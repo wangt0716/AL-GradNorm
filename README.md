@@ -1,5 +1,6 @@
 # AL-GradNorm
 Pytorch implementation of our paper: *Boosting Active Learning via Improving Test Performance*, AAAI 2022. 
+arXiv version is [here](https://arxiv.org/pdf/2112.05683.pdf)
 
 
 ## Introduction
